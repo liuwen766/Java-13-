@@ -25,7 +25,8 @@ public class ReflectDemo {
         Method add = c.getDeclaredMethod("add", Object.class);
         // c.触发scores集合对象中的add执行（运行阶段，泛型不能约束了）
         add.invoke(scores,"波仔");
-
+        add.invoke(scores,true);
+        add.invoke(scores,"abc");
         System.out.println(scores);
 
 
