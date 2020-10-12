@@ -1,5 +1,8 @@
 package com.itheima._05反射_获取Field成员变量;
 
+/**
+ * @author liuwen766
+ */
 public class Dog {
     private String name;
     private int age ;
